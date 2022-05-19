@@ -42,6 +42,8 @@ ul li {
 }
 
 img {
+    width: 370px;
+    height: 370px;
     border: none;
     vertical-align: bottom;
 }
