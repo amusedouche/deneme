@@ -1,0 +1,47 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000000 url(./plaj.png) top left repeat;
+}
+
+#amuse-div {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 965px;
+}
+
+#amuse-div h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 110px;
+    color: var(--white);
+    padding-top: 30px;
+}
+
+#amuse-div h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 40px;
+    color: lightpink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 42px 0;
+}
+ul li {
+    display: inline;
+    margin: 0px 18px;
+}
+
+img {
+    border: none;
+    vertical-align: bottom;
+}
